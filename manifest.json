@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube AdBlocker",
+  "version": "1.0",
+  "description": "Ekstensi untuk memblokir iklan di YouTube.",
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.youtube.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

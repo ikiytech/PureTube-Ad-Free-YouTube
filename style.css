@@ -1,0 +1,7 @@
+ytd-ad-slot-renderer,
+ytd-companion-slot-renderer,
+.video-ads,
+.ytp-ad-module,
+.ytp-ad-player-overlay {
+  display: none !important;
+}
