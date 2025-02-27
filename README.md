@@ -1,14 +1,14 @@
 # PureTube-Ad-Free-YouTube
 
-kstensi YouTube AdBlocker ini dirancang untuk memblokir iklan di YouTube menggunakan kombinasi content script dan web request blocking.
+This YouTube AdBlocker extension is designed to block ads on YouTube using a combination of content scripts and web request blocking.
 
-🔹 Fitur Utama:
-✅ Menghapus elemen iklan di halaman YouTube secara otomatis.
-✅ Mencegat permintaan iklan dari YouTube & Google Ads menggunakan webRequest.
-✅ Menampilkan kembali tombol dislike yang tersembunyi.
-✅ Melewati segmen sponsor dalam video dengan melompati detik tertentu.
+🔹 Key Features:
+✅ Automatically removes ad elements on YouTube pages.
+✅ Intercepts ad requests from YouTube & Google Ads using webRequest.
+✅ Restores the hidden dislike button.
+✅ Skips sponsor segments in videos by jumping certain seconds.
 
-Link Ekstensi For Firefox :
+Extension Link for Firefox:
 https://addons.mozilla.org/en-US/firefox/addon/puretube-ad-free-youtube/
 
-Ekstensi ini berjalan dengan Manifest V2 agar kompatibel dengan Firefox dan dapat diinstal secara manual melalui about:debugging. 🚀
+This extension runs on Manifest V2 to ensure compatibility with Firefox and can be manually installed via about:debugging. 🚀
